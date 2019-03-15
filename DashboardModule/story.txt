@@ -1,0 +1,8 @@
+Form Validation on all possible fields in html
+service calls for the dashboard
+Create a form to get input for User creation
+ firstName
+ lastName
+ age
+ Country
+ Subscription

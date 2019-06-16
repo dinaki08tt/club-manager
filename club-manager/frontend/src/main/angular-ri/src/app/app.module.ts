@@ -7,6 +7,8 @@ import { DropdownModule } from 'primeng/primeng';
 import { AppComponent } from './app.component';
 import { EmployeeComponent } from './employee/employee.component';
 import { ButtonModule } from 'primeng/button';
+import { MockdataService } from '../mock/mockdata.service';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule( {
@@ -21,9 +23,10 @@ import { ButtonModule } from 'primeng/button';
         DropdownModule,
         FormsModule,
         ReactiveFormsModule,
-        ButtonModule
+        ButtonModule,
+        HttpClientModule
     ],
-    providers: [],
+    providers: [MockdataService],
     bootstrap: [AppComponent]
 } )
 export class AppModule { }

@@ -1,0 +1,14 @@
+{
+	"regions": [
+		"San fransico",
+		"Colarado Spring",
+		"New Jersey"
+	],
+	"state": [
+		"WS",
+		"PL",
+		"CA",
+		"NC",
+		"OL"
+	]
+}

@@ -16,4 +16,6 @@
 
 [Ng Template-Primefaces unitesting](https://forum.primefaces.org/viewtopic.php?t=55884)
 
+[State Management App example](https://github.com/avatsaev/angular-contacts-app-example.git)
+
 
